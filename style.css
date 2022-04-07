@@ -1,0 +1,40 @@
+html, body {
+    /* background-color: #FFE53B; */
+    background: url("clouds.jpg");
+    background-repeat: no-repeat;
+    /* linear-gradient(147deg, #FFE53B 0%, #FF2525 74%); */
+    /* height: 100%;
+    width: 100%; */
+    background-size: 100%;
+}
+nav {
+    /* background-color: #4158D0;
+    background-image: radial-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); */
+    display: flex;
+    width: 100%;
+    height: 70px;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+.header-text {
+    color: white;
+    font-family: #f9faf8;
+    font-size: 200%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title {
+    color: white;
+    font-family: #f9faf8;
+    font-size: 150%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.txtbutton {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
