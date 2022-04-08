@@ -31,3 +31,5 @@ document.querySelector(".search button").addEventListener("click", function() {
 weather.search();
 });
 
+const date = new Date().toLocaleDateString('en-us', { weekday:"long", year:"numeric", month:"short", day:"numeric"})
+document.querySelector(".date").innerText = date;
