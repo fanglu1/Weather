@@ -30,11 +30,3 @@ document.querySelector(".search button").addEventListener("click", function() {
 weather.search();
 });
 
-// document.querySelector(".city").innerText = "Weather in " + name;
-// document.querySelector(".icon").src = "https://openweathermap.org/img/wn/" + icon + ".png";
-// document.querySelector(".description").innerText = description;
-// document.querySelector("temp").innerText = temp + "°F";
-// document.querySelector(".feels_like").innerText = "Feels like: " + feels_like;
-// document.querySelector(".speed").innerText = "Wind Speed is: " + speed + " mph";
-// document.querySelector(".temp_min").innerText = "Low of: " + temp_min;
-// document.querySelector(".temp_max").innerText = "High of: " + temp_max;
