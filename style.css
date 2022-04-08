@@ -28,7 +28,7 @@ nav {
 .climate {
     border-style: solid;
     border-color: white;
-    width: 20%;
+    width: auto;
     color: white;
     font-family: #f9faf8;
     font-size: 150%;

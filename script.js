@@ -24,6 +24,7 @@ let weather = {
     search: function () {
         this.fetchWeather(document.querySelector(".searchButn").value);
     }
+    
 }
 
 document.querySelector(".search button").addEventListener("click", function() {
