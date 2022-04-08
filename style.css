@@ -5,7 +5,7 @@ html, body {
     /* linear-gradient(147deg, #FFE53B 0%, #FF2525 74%); */
     /* height: 100%;
     width: 100%; */
-    background-size: 100%;
+    background-size: auto;
 }
 nav {
     /* background-color: #4158D0;
@@ -28,7 +28,7 @@ nav {
 .climate {
     border-style: solid;
     border-color: white;
-    width: 35%;
+    width: 20%;
     color: white;
     font-family: #f9faf8;
     font-size: 150%;
