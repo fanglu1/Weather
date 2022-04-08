@@ -1,30 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <nav class="flex-container">
-      <div class="header">
-        <h1 class="header-text">The Weather</h1>
-      </div>
-    </nav>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <nav class="flex-container">
     <div class="header">
-        <h2 class="title">The Temp</h2>
+      <h1 class="header-text">The Weather</h1>
     </div>
-    <div class="txtbutton">
-        <input type="text" id="txtVal" />
-        <button onclick="addLi()">Search Location</button>
-        <br><br>
+  </nav>
+  <br><br>
+  <div class="search">
+    <input type="text" class="searchButn" />
+    <button>Search ZipCode</button>
+    <br><br>
+  </div>
+
+  <div class="climate">
+    <h2 class="title">The Temp</h2>
+    <h3 class="city">Fort Mill</h3>
+    <div class="temp">°F</div>
+    <div class="feelsLike">Feels Like: °F</div>
+    <div class="flex">
+    <img src="" alt="" class="icon" />
+    <div class="desc">Cloudy</div>
     </div>
-    <div class="tempbutton">
+    <div class="high">High of:</div>
+    <div class="low">Low of:</div>
+    <div class="wind">Wind speed:</div>
+    <br>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
+<!-- <div class="tempbutton">
         <button onclick="addLi()">Celsius</button>
         <button onclick="addLi()">Fahrenheit</button>
-    </div>
-    <script src="script.js"></script>
-  </body>
-</html>
+    </div> -->
+<!-- <div class="header">
+      <h2 class="title">The Temp</h2>
+  </div> -->

@@ -25,7 +25,10 @@ nav {
     margin-left: auto;
     margin-right: auto;
 }
-.title {
+.climate {
+    border-style: solid;
+    border-color: white;
+    width: 35%;
     color: white;
     font-family: #f9faf8;
     font-size: 150%;
@@ -33,16 +36,24 @@ nav {
     margin-left: auto;
     margin-right: auto;
 }
-.txtbutton {
+
+/* .flex {
+    display: flex;
+    align-items: center;
+} */
+.search {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    /* border-style: solid;
+    border-color: white;
+    width: 35%;
+    height: 75%; */
 }
-.tempbutton {
+/* .tempbutton {
     border-style: solid;
     border-color: white;
     width: 25%;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
-}
+    text-align: center; }*/
