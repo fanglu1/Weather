@@ -9,9 +9,9 @@ let weather = {
     displayWeather: function(data) {
         const {name} = data;
         const {icon, description} = data.weather[0];
-        const {temp, feels_like, temp_max, temp_min} = data.main;
+        const {temp, feels_like, temp_max, temp_min, humidity} = data.main;
         const {speed} = data.wind;
-        console.log(name,icon,description,temp,feels_like,temp_min,temp_max,speed);
+        console.log(name,icon,description,temp,feels_like,temp_min,temp_max,speed, humidity);
         document.querySelector(".city").innerText = "Weather in " + name;
         document.querySelector(".icon").src = "https://openweathermap.org/img/wn/" + icon +".png";
         document.querySelector(".desc").innerText = description;
@@ -20,6 +20,7 @@ let weather = {
         document.querySelector(".wind").innerText = "Wind Speed is: " + speed + " mph";
         document.querySelector(".low").innerText = "Low of: " + temp_min;
         document.querySelector(".high").innerText = "High of: " + temp_max;
+        document.querySelector(".humid").innerText = "Humidity: " + humidity;
     },
     search: function () {
         this.fetchWeather(document.querySelector(".searchButn").value);
